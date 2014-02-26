@@ -6,7 +6,7 @@ var pkg = require("./package").sinergis;
 
 var app = koa();
 
-sinergis.boot (app, pkg.api, "./app");
+sinergis.boot (app, pkg.api, pkg.app);
 var server = http.createServer(app.callback());
 
 if (pkg.primus) {
