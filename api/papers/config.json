@@ -1,4 +1,5 @@
 {
   "name": "papers",
+  "type": "router",
   "description": "papers routers"
 }

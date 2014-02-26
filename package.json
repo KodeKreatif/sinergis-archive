@@ -23,10 +23,26 @@
     "koa-compress": "~1.0.3",
     "koa-error": "~1.1.1",
     "koa-static": "~1.4.3",
-    "koa-mount": "~1.2.3"
+    "koa-mount": "~1.2.3",
+    "koa-cors": "0.0.6",
+    "socket.io": "~0.9.16",
+    "koa-sse": "~0.1.0",
+    "primus": "~2.0.2",
+    "sse-stream": "0.0.4",
+    "koa-static-cache": "~1.0.4",
+    "koa-favicon": "~1.0.1",
+    "jsonwebtoken": "~0.1.0"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/diorahman/sinergis"
+  },
+  "sinergis": {
+    "api": "./api",
+    "app": "./app",
+    "primus": {
+      "transformer": "socket.io"
+    },
+    "port": 3000
   }
 }

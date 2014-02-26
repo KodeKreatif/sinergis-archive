@@ -1,6 +1,7 @@
 {
   "name": "stats",
   "description": "api statistics",
+  "type" : "route",
   "routes": {
     "GET /stats": "all",
     "GET /stats/:name": "get"

@@ -1,5 +1,5 @@
 {
   "name": "users",
-  "type" : "resource",
+  "type": "primus",
   "description": "user account resource"
 }
